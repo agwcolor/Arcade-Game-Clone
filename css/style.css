@@ -6,19 +6,15 @@
 
 html,
 body {
-    text-align: center;
-    width: 100%;
+	text-align: center;
+    width: 90vw%;
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-body {
     background: #fff url('../images/triangle.svg');
     background-size: 200vw;
     /*background-color: rgba(211, 211, 211, 0.3);*/
     background-blend-mode: darken;
-
     font: 2.3vw Coda;
 }
 
