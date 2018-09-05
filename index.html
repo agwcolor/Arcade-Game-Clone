@@ -6,8 +6,41 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <script src="js/resources.js"></script>
+	    <div class="container">
+
+<header>
+            <h1>ARCADE GAME CLONE</h1>
+        </header>
+        <section class="score-panel">
+            <ul class="stars">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+            </ul>
+            <span class="moves">3 Moves</span>
+            <div id="reveal-mode">
+                <i class="far fa-image"></i>
+            </div>
+            <div class="restart">
+                <i class="fas fa-redo-alt"></i>
+            </div>
+            <form class="mix-form">
+                <select id="dropdown">
+                    <option value="char-boy.png" id="0">Boy
+                    </option>
+                    <option value="char-cat-girl.png" id="1">Cat Girl</option>
+                    <option value="char-horn-girl.png" id="2">Horn Girl</option>
+                    <option value="char-pink-girl.png" id="3">Pink Girl</option>
+                    <option value="char-princess-girl.png" id="4">Princess Girl</option>
+                </select>
+            </form>
+        </section>    
+
+        <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
+</div>
 </body>
 </html>

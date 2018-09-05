@@ -1,3 +1,91 @@
-body {
-    text-align: center;
+html {
+    box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+	text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff url('../images/triangle.svg');
+    background-size: 200vw;
+    /*background-color: rgba(211, 211, 211, 0.3);*/
+    background-blend-mode: darken;
+
+    font: 2.3vw Coda;
+}
+
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 200
+    color: #f36;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.fas .far {
+    display: inline-block;
+    font: normal normal normal 16px/1 font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    vertical-align: -webkit-baseline-middle;
+}
+
+/*score panel*/
+.score-panel {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 40%;
+    margin-bottom: 10px;
+    font-size: 2.10vw;
+}
+
+.score-panel .stars {
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1.8vw;
+}
+
+
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.score-panel #reveal-mode {
+    justify-content: flex-end;
+    margin: 0 0 3px auto;
+    font-size: 2.30vw;
+}
+
+
