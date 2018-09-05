@@ -4,12 +4,24 @@ frontend-nanodegree-arcade-game
 # Arcade Game Clone
 
 ## Table of Contents
+* [Installation](#installation)
 * [Instructions](#instructions)
 * [Dependencies](#dependencies)
 * [Contributing](#contributing)
 * [License](#license)
 
+## Installation
 
+To install the game on your desktop:
+1. Navigate to https://github.com/agwcolor/Arcade-Game-Clone. 
+2. Click the green 'Clone or Download' button to copy the directory or zipfile to your desktop machine.
+3. If you have a zipfile, extract it.
+4. Open the Arcade-Game-Clone folder.
+5. Open the index.html file in your browser.
+
+- OR - 
+
+Play the game online in your browser here : http://htmlpreview.github.io/?https://github.com/agwcolor/Arcade-Game-Clone/blob/master/index.html.
 
 ## Instructions
 
@@ -23,7 +35,7 @@ In this classic arcade game, your goal is to move your player from the starting 
 
 4. To restart the game & score totals, press the reset button.
 
-5. You can choose your player icon from the dropdown menu. IMPORTANT : Once you have chosen it, be sure to click on the board afterwards, otherwise you won’t be able to move on the board with your arrows.
+5. You can choose your player icon from the dropdown menu. IMPORTANT : Once you have chosen it, be sure to double-click on the board afterwards, otherwise you won’t be able to move on the board with your arrows.
 
 6. TODO : Add Gem rewards. Add difficulty levels. Figure out how to move focus to canvas once player is chosen from Dropdown menu.
 
