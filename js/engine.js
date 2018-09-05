@@ -63,7 +63,7 @@ var Engine = (function(global) {
      * game loop.
      */
     function init() {
-        reset();
+        //reset();
         lastTime = Date.now();
         main();
     }
@@ -162,6 +162,11 @@ var Engine = (function(global) {
      */
     function reset() {
         // noop
+        //counters
+        //restart game button
+
+
+
     }
 
     /* Go ahead and load all of the images we know we're going to need to
@@ -181,9 +186,11 @@ var Engine = (function(global) {
     ]);
     Resources.onReady(init);
 
+   //document.querySelector('restart').addEventListener('click', function() {init(); });
     /* Assign the canvas' context object to the global variable (the window
      * object when run in a browser) so that developers can use it more easily
      * from within their app.js files.
      */
+
     global.ctx = ctx;
 })(this);

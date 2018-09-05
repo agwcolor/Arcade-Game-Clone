@@ -1,6 +1,6 @@
-html {
+/*html {
     box-sizing: border-box;
-}
+}*/
 
 *,
 *::before,
@@ -10,7 +10,7 @@ html {
 
 html,
 body {
-	text-align: center;
+    text-align: center;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -29,8 +29,8 @@ body {
 
 h1 {
     font-family: 'Fjalla One', sans-serif;
-    font-weight: 200
-    color: #f36;
+    text-shadow: 2px 2px #000000;
+    color: #E67833;
 }
 
 .container {
@@ -51,41 +51,36 @@ h1 {
     vertical-align: -webkit-baseline-middle;
 }
 
+
 /*score panel*/
+
 .score-panel {
     display: flex;
     justify-content: space-between;
     text-align: left;
-    width: 40%;
-    margin-bottom: 10px;
+    width: 60%;
+    margin-bottom: 0px;
     font-size: 2.10vw;
 }
 
-.score-panel .stars {
-    padding: 0;
-    display: inline-block;
-    margin: 0 5px 0 0;
+.score-panel .collisions {
+    margin: 0 0 2vw auto;
+    font-size: 2.30vw;
 }
 
-.score-panel .stars li {
-    list-style: none;
-    display: inline-block;
-    font-size: 1.8vw;
-}
-
-
-.score-panel .restart {
-    float: right;
-    cursor: pointer;
-    display: inline-block;
-    justify-content: flex-end;
-    margin-left: auto;
-}
-
-.score-panel #reveal-mode {
-    justify-content: flex-end;
-    margin: 0 0 3px auto;
+.score-panel .wins {
+    margin: 0 0 2vw auto;
     font-size: 2.30vw;
 }
 
 
+.score-panel .restart {
+    margin: 0 0 2vw auto;
+    cursor: pointer;
+}
+
+
+.mix-form {
+    margin: 0 0 2vw auto;
+    font-size: 2.30vw;
+}
